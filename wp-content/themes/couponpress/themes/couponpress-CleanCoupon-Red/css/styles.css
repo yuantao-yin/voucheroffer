@@ -1,0 +1,189 @@
+/*
+
+color: bd1616 / fff1f1
+
+*/
+
+
+
+	body { margin:10px 0;background-image: url("../images/bg.jpg"); }
+
+	.wrapper { background:none repeat scroll 0 0 #FFFFFF; 
+	           border:0px solid #ffffff; 
+				  -webkit-box-shadow: 0 0 0px #cccccc; 
+				  -moz-box-shadow: 0 0 0px #cccccc;  	
+				  -webkit-box-shadow: 0 0 0px #ccc;  	
+				  box-shadow:0px 0px 15px #ccc;
+				  border-top-left-radius: 0px;
+              border-top-right-radius: 0px; 
+				  }
+
+
+
+	a { color:#000099;font-weight: bold; }
+
+	
+
+/* ===================== COLUMN WIDTHS ======================== */ 
+
+
+
+	.leftSidebar { width:20%; margin-right:10px; margin-left:0px; }
+
+	.middleSidebar { width:65% }
+
+	.rightSidebar { width:33.5%; margin-left:10px; margin-right:0px; }
+
+	#PPTSinglePage .rightSidebar { width:250px; }
+
+
+
+/* ===================== HEADER STYLES ======================== */ 
+
+	 
+
+	#header {height: 140px; background: url("../images/header_tile.png") repeat-x scroll left top transparent;}
+
+	#header, .menu { margin-left: 0px; width:960px; }
+
+	#logo {width: 450px; height:130px; margin-top: -28px;  } 
+
+	#hpages { background: none repeat scroll 0 0 transparent; width:500px; float:right; }
+
+	#hpages ul { padding-top:5px;  }
+
+	#hpages ul li { border-right:0px solid #FFFFFF; }
+
+	#hpages ul li a {color: #000099; }
+
+ 	#hpages ul li ul li a {color: #000099; }
+
+ 
+
+ 	.menu { background:url(../images/nav.gif) repeat-x;  }
+
+	.menu li { 	background:url(../images/menu_spacer.png) top right no-repeat; height:100%; }
+        
+        .menu li a {    color: #ffffff;    font-size: 14px;    padding-top: 12px;    text-transform: uppercase;}
+
+ 	#submenubar { margin-left:1px;height: 0; border-top:0 none; border-bottom: 1px solid #FFFFFF;}
+
+	 
+
+		#SearchForm { margin-top: 0px; margin-left:0px; text-align:center; }
+
+		#searchBox span { margin-left:10px; text-decoration:underline;}		 
+
+		#searchBox .searchBtn { margin:0px; border:0px; width:118px; height:40px; background:url(../images/search.gif) no-repeat scroll 0 0 transparent; border:0px !important; padding:0px; float:left; cursor:pointer; }
+
+ 	
+
+	ul.submenu_account { padding-top:5px; font-size:12px; text-transform:uppercase; }
+
+	ul.submenu_account li { font-size:12px; }
+
+	
+
+/* ===================== CONTENT STYLES  ======================== */ 
+
+	
+
+	#content { padding:0px; padding-top:10px; }
+
+	.middleSidebar h1 {   color:#000099; font-size:23px; }
+
+	
+
+/* ===================== FOOTER STYLES  ======================== */ 
+
+	
+#footer { background: url("../images/footer.png") no-repeat scroll 0 0 transparent;  }
+
+	#footer p, #footer h3, .recentarticles a { color: #ffffff; }
+	.b_third_col {   width: 960px;    padding-bottom:15px;}
+
+	.recentarticles a { text-decoration:underline; }
+   #col1 {float:left;width:300px;}
+   #col2 {float:left;width:200px;}
+   #col3 {float:left;}
+	#wrapfooter h3 {    color: #ffffff;    font-size:17px;}
+   #wrapfooter a {color:#ffffff;}
+   #wrapfooter p {color:#ffffff;font-weight:bold;font-size:11px;}
+   #wrapfooter a:hover {  color:#ffffff;  text-decoration:underline;}
+	#copyright p {    color: #ffffff;    padding-left: 15px;}
+	
+
+/* ===================== SLIDERS  ======================== */ 
+
+
+
+	.myslider { margin-top:10px; }
+
+	#siteFeature {position:relative;  background:#efefef; border:1px solid #fff; margin-left:0px !important; width:960px !important; }
+
+	#siteFeature #tabContainer a:link, #siteFeature #tabContainer a:visited { background: transparent url(../images/_slider_inactive.png) no-repeat; }
+
+	#siteFeature #tabContainer a:hover{ background:#fff url(../images/_slider_inactive1.png) no-repeat; }
+
+	#siteFeature #tabContainer a h4 { color: #666; padding:10px 11px 0px 11px; }	
+
+	#siteFeature #tabContainer a.selected h4, #siteFeature #tabContainer a.selected p { color: #fff; text-shadow: 0px 1px 0px #666; }	
+
+	.PPTActiveTab { background: transparent url(../images/_slider_active.png); }
+
+	#siteFeature #txtBoxContainer a { color:#fff;} 
+
+	#siteFeature h3 { color:#fff; }
+
+	
+
+ 
+
+	.itembox { border: 1px solid #E2E2E2; clear: both;margin: 0px 0px 15px;padding: 0px;  }
+
+	.itembox h2, .itembox h1 {	margin: 0px 0;	 font-size:14px;     line-height:28px;     text-transform:uppercase;    min-height:30px;  margin-bottom:0px;     border-bottom:solid 1px #e8e8e8;    padding:0px 20px;    background-image:url(../images/itemboxh2.gif);    background-color:none;   background-repeat:repeat-x;	color:#000000;}
+
+	.itemboxinner { padding:10px; background:#fff url(../images/content_pane-gradient.gif) bottom left repeat-x; }
+   #sidebar .widget li a {   color: #000099;    font-size: 13px;}
+	
+
+	/*sidebar buttons */
+
+	#icon-side-addcoupon { background: url(../images/but-add.gif) no-repeat; width:150px; height:60px; float:left;margin-bottom:20px; margin-right:20px; } 
+
+	#icon-side-managecoupon { background: url(../images/but-manage.gif) no-repeat; width:150px; height:60px;  float:left; margin-bottom:20px; } 
+
+
+
+
+
+/* ===================== _ITEM STYLES  ======================== */ 
+
+
+
+	.couponlist li, .CouponPopList li  { background:#fff url(../images/content_pane-gradient.gif) bottom left repeat-x; }
+
+	.couponlist li:hover, .CouponPopList li:hover  { background:#fff1f1; }
+
+
+
+	.clicktoreveal-link { background: url('../images/clicktoreveal.png') no-repeat; margin-right: -10px; }
+
+	.optionslist a { background:#252525 url(../images/btn.gif) repeat; border:1px dashed #ddd; }
+
+	.optionslist .oshare {  background: #fff url(../images/oshare.png) no-repeat 5px center;  }
+
+	.optionslist .ohits {  background:#fff url(../images/ohits.png) no-repeat 5px center;  }
+
+	.optionslist .oprint {  background:#fff url(../images/oprint.png) no-repeat 5px center;  }
+
+	.optionslist .oreport {  background:#fff url(../images/oreport.png) no-repeat 5px center;  }
+
+		.optionslist .oshare:hover {  background: #bd1616 url(../images/osharea.png) no-repeat 5px center; color:#FFFFFF;  }
+
+		.optionslist .ohits:hover {  background:#bd1616 url(../images/ohitsa.png) no-repeat 5px center;  color:#FFFFFF;}
+
+		.optionslist .oprint:hover {  background:#bd1616 url(../images/oprinta.png) no-repeat 5px center; color:#FFFFFF; }
+
+		.optionslist .oreport:hover {  background:#bd1616 url(../images/oreport.png) no-repeat 5px center; color:#FFFFFF; }
+

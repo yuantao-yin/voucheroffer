@@ -1,0 +1,121 @@
+
+
+input.wwIconified{
+  float: left;
+}
+
+ul.wwIconified{
+  width: 570px;
+  overflow: hidden;
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px dotted #aaa;
+ top:100px;
+}
+
+ul.wwIconified li{
+  margin: 10px 8px;
+  border: 1px dotted #aaa;
+  float: left;
+  width: 122px;
+  height: 143px;
+  position: relative;
+  overflow: hidden;
+}
+
+ul.wwIconified li div.Wide{
+  width: 122px;
+  height: auto;
+  margin: 0;
+  padding: 9px 0 0 0;
+}
+
+ul.wwIconified li div.Wide img{
+  display: block;
+  width: 100px;
+  margin: 0;
+  padding: 0 11px 13px 11px;
+  
+}
+
+ul.wwIconified li div.Tall{
+  display: table; /* OK, this is a hack I don't like. If you can do better, please contact me. */
+  width: auto;
+  height: auto;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 0 0 0 11px;
+   
+}
+
+ul.wwIconified li div.Tall img{
+  padding: 9px 11px 13px 0;
+  display: block;
+  margin: 0 auto;
+  height: 75px;
+   
+}
+
+ul.wwIconified li p{
+  font-family: verdana, sans-serif;
+  font-size: 9px;
+  line-height: 12px;
+  position: absolute;
+  top: 95px;
+  margin: 0 0 0 11px;
+}
+
+ul.wwIconified li input.File{
+  display: none;
+}
+
+ul.wwIconified li button.RemoveButton{
+  position: absolute;
+  top: 109px;
+  width: 122px;
+  height: 34px;
+  border: none;
+  background: url(../img/button-cancel.gif) no-repeat;
+  margin: 0;
+  cursor: pointer;
+}
+ul.wwIconified li button.RemoveButton:hover{
+  background: url(../img/button-cancel-hover.gif) no-repeat;
+}
+
+ul.wwIconified li button.RemoveButton span{
+  display: none;
+}
+
+
+
+
+ul.wwIconified li div{
+  width: 100px;
+  height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+  background: url(../img/icon-png.gif) no-repeat;
+}
+ul.wwIconified li div.htm,
+ul.wwIconified li div.html{
+  background: url(../img/icon-htm.gif) no-repeat;
+}
+ul.wwIconified li div.pdf{
+  background: url(../img/icon-pdf.gif) no-repeat;
+}
+ul.wwIconified li div.php{
+  background: url(../img/icon-php.gif) no-repeat;
+}
+ul.wwIconified li div.css{
+  background: url(../img/icon-css.gif) no-repeat;
+}
+ul.wwIconified li div.png{
+  background: url(../img/icon-png.gif) no-repeat;
+}
+ul.wwIconified li div.jpg{
+  background: url(../img/icon-png.gif) no-repeat;
+}

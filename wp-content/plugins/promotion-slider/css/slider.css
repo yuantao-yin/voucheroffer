@@ -1,0 +1,122 @@
+.promo_slider_wrapper { margin:10px 0; position:relative; }
+.promo_slider { height:235px; overflow:hidden; position:relative; }
+.promo_slider img { margin:0; padding:0; }
+.promo_slider .panel {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pointer {cursor:pointer; cursor:hand;}
+.ps_hover { display:none; }
+.promo_slider:hover .ps_hover { display:block; }
+.promo_slider_sep { font-weight:normal; }
+
+/* DEFAULT SLIDER NAV - If enabled */
+.promo_slider_nav {
+	display:none;
+	position:absolute;
+	bottom: 0;
+    right: 0;
+	margin:10px;
+	padding:5px 10px;
+	background-color:#fff;
+	color:#666; text-align:center; 
+	font-size:12px;
+	font-weight:bold;
+    z-index: 101;
+}
+.fancy_ps_nav {background:url('images/nav.png') no-repeat transparent; width:147px; height:49px; line-height:49px; margin:0; padding:0;}
+.slider_selections span.current {color:#000;}
+
+/* OPTIONAL SLIDER NAV LINKS - If enabled */
+.left_arrow, .right_arrow {position:absolute; top:45%; width:30px; height:30px; z-index: 101;}
+.left_arrow { left:5px; background:url('images/prev.png') no-repeat;}
+.right_arrow { right:5px; background:url('images/next.png') no-repeat; }
+
+/* THUMBNAIL SLIDER NAV - If enabled */
+.promo_slider_thumb_nav { display:none; position:relative; height:50px; padding:10px 0; background:url('images/slide.png'); overflow:hidden;}
+.promo_slider_thumb_nav .thumb_nav { height:50px; margin:0 40px; padding:0; }
+.promo_slider_thumb_nav .right_arrow, .promo_slider_thumb_nav .left_arrow { top:20px; }
+.promo_slider_thumb_nav .slider_selections span { float:left; display:block; width:50px; height:50px; margin:0 4px 11px 4px; padding:0 1px; overflow:hidden; }
+.promo_slider_thumb_nav .slider_selections span.current { border:1px solid #fff; margin-top:-1px; padding:0; }
+.promo_slider_thumb_nav img { width:50px; }
+
+/* TITLE DISPLAY - If enabled */
+.promo_slider_title {
+	display:block;
+	position:absolute;
+	top:0px; left:0px;
+	width:95%;
+	padding:2.5%;
+	text-align:left;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#000;
+}
+.fancy_ps_title {
+	background-image:url('images/title.png');
+	background-repeat:no-repeat;
+	background-position:right;
+	width:auto;
+	height:77px; 
+	padding:0 40px 0 10px;
+	font-size:18px;
+	text-align:center;
+	line-height:77px;
+}
+.promo_slider_title a {color:#000; text-decoration:none;}
+.promo_slider_title a:hover {text-decoration:underline;}
+
+/* EXCERPT DISPLAY - If enabled */
+.promo_slider_excerpt {
+	display:block;
+	position:absolute;
+	bottom:0; left:0;
+	background-color:#000;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	color:#fff;
+	padding:3px 2.5%;
+	width:95%;
+}
+.promo_slider_excerpt p {margin:0; padding:0;}
+
+/** TABBED TITLE NAVIGATION **/
+.promo_slider_wrapper .promo_slider_nav.tabbed_ps_nav {
+	display:none;
+}
+.promo_slider_wrapper.tabbed_nav .promo_slider_nav.tabbed_ps_nav {
+	position: static;
+	background: url( 'images/slide.png' );
+	display: table-row;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+.promo_slider_nav.tabbed_ps_nav span {
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid white;
+	border-right-color: transparent;
+	margin: 0;
+	padding: 5px;
+	/*
+	 * Setting the width to a small percentage ensures that the width is evenly distributed even though
+	 * we don't know how many slides there are or how long the titles are.  If we set the width to 25%
+	 * and then had 5 slides, the fifth slide would be smaller than the rest.
+	 */
+	width: 1%;
+	color: white;
+}
+.promo_slider_nav.tabbed_ps_nav span:first-child {
+	border-left-color: transparent;
+}
+.promo_slider_nav.tabbed_ps_nav span.current {
+	border-color: black;
+}
+.promo_slider_nav.tabbed_ps_nav span.current + span {
+	border-left-color: transparent;
+}

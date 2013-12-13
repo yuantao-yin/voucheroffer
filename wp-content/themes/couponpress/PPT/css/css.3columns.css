@@ -1,0 +1,35 @@
+.leftSidebar { width:20%; margin-right:10px; margin-left:0px; }
+.middleSidebar { width:57.5% }
+.rightSidebar { width:20%; margin-left:10px; margin-right:0px; }
+#PPTSinglePage-post .rightSidebar { width:250px; }
+#PPTSinglePage-post .leftSidebar { display:none; }/**/
+.homeCategories ul li  { width:265px; }
+#sidebar .homeCategories ul li  { width:170px !important; min-width:170px;}
+
+
+
+.post .text { width: 280px !important;}
+.listImage { width:180px; height:128px; }
+.galleryImage { width:250px !important;max-height:210px !important;}
+.FAQ_Content .categories .categoryItem { width:160px !important; }
+.FAQ_Content .featured, .FAQ_Content .latest-half {width: 250px;}
+#sidebar .btnDownload_01 {width:190px; margin-bottom:10px;  }
+
+ 
+.couponlist li img { height: 60px !important;width: 85px !important;}
+
+
+
+/* auctionpress*/
+#featuredstores li { width:170px; }
+.quicksearch { width:75%; display:block;  } /*120px;*/
+ul.display li .content_block .infobox { margin-left:0px; } 
+ul.thumb_view li { width:165px; }
+.content_block img { max-height: 120px;max-width: 145px;}
+
+
+
+/* rp */
+.RPoptionslist a { margin-right: 10px; }
+.oreport { display:none }
+.addBtn { width:170px; }

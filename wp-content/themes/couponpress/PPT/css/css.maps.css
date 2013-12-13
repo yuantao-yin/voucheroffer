@@ -1,0 +1,14 @@
+#map_canvas {    width:500px; height:500px; }
+#map_sidebar { width:260px; height:230px; }
+#map_sidebar2 { width:240px; height:220px; }
+#map_homepage {   width:620px; height:350px; }
+
+.tooltip {    font-family: "Lucida Sans", "Lucida Sans Unicode", arial;    font-size: 9pt;    width: 170px;    overflow: hidden; text-align:center; }
+.tooltip img {   width:120px; height:90px; padding-top:10px;  }
+.tooltip .top{    background: url(../img/bubble.png) no-repeat;    height: 5px;    overflow: hidden;}
+.tooltip .middle{    background: url(../img/bg.png) repeat;    background-position: -173px top;    padding: 0px 5px;    color: #FFF;}
+.tooltip .middle img{    margin: 5px 0px;    clear: both;}
+.tooltip .bottom{    background: url(../img/bubble.png) no-repeat;    height: 25px;    background-position: left bottom;    overflow: hidden;}
+.tooltip .IE6 {    background: url(../img/bubble.gif) no-repeat;}
+.tooltip .BOTTOMIE6 {    background: url(../img/bubble.gif) no-repeat left bottom;}
+.tooltip .MIDDLEIE6 {    background: #1A1A1A;}

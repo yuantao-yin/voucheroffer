@@ -1,0 +1,16 @@
+Ping Optimizer Library
+End User License Agreement
+Copyright (c) 2008, Pawan Agrawal
+All rights reserved.
+
+By using the software, you agree to be bound by the terms of this license.
+
+1. You may install and use the software on as many computers and websites/blogs as you wish. You may make back-up copies of the software for archival purposes.
+
+2. You can distribute this software in its original form with any other products or stand alone.
+
+3. You are not allowed to use this script library for creating any other software or plugin without expressed permission from us.
+
+4. The software is protected by the copyright laws of the U.S. and other countries, and we retain all intellectual property rights in the software. You may not separately publish, sell, market, distribute, lend, lease, rent, modify, reverse engineer or sublicense the software code.
+
+5. You must not make any modification to the software without express permission from us. If there is a feature you want included or a bug you want fixed, let us know.

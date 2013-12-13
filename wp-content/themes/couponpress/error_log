@@ -1,0 +1,2 @@
+[04-Oct-2013 17:25:42] PHP Fatal error:  Call to undefined function  get_currentuserinfo() in /home3/simogold/public_html/AllVouchersOffers.com/wp-content/themes/couponpress/index.php on line 18
+[04-Oct-2013 17:26:07] PHP Fatal error:  Call to undefined function  get_currentuserinfo() in /home3/simogold/public_html/AllVouchersOffers.com/wp-content/themes/couponpress/index.php on line 18
